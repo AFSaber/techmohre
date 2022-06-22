@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #023047;
+  }
+
+  .navbar .navbar-expand-lg {
+    background-color: #023047;
+  }
+  .navbar-toggler {
+background-color: white;}
+
+  .navbar-toggler .navbar-toggler-icon 
+  {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(2, 48, 71,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+                }
+
+
+  .nav-item .nav-link, .navbar-brand , .list-inline 
+  {
+    color:white;
+
+  }
+  .navbar-brand:hover 
+  {
+    color:#fb8500
+  }
+
+  .list-inline-item:first-child:hover,  .list-inline-item:last-child:hover, .nav-item .nav-link:hover
+  {
+    cursor: pointer;
+    color:#fb8500
+
+  }
+
+  .carousel-item img {
+    height: 60vh;
+    margin-left:0.2rem;
+    padding:0;
+
+}
+
+.carousel-caption
+{
+  background-color: black;
+  opacity: 0.5;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+  
+
+  .question-section {
+    background-color: #fb8500;
+    padding:1rem;
+    margin-top:1rem;
+    border-radius: 0.5rem;
+    color:#000
+  }
+ 
+  .validation-section,.script-section,.disposition-section{
+    margin-top:3rem;
+
+  }
+
+  .validation-section h2,.script-section h2 ,.disposition-section h2{
+    background-color: #8ecae6; 
+    color:black;
+    margin:0;
+    padding:0.5rem 0
+ }
+ .script-section .card {
+    background-color: #fb8500;
+ }
+ .script-section button {
+    color:rgb(220, 207, 207);
+    font-size: 1rem;
+
+ }
+
+
+ .script-section .card-body 
+ {
+  font-weight: bold;
+  margin-left:0.5rem;
+ }
+
+.disposition-section p 
+{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    margin: 0;
+    color:wheat
+}
